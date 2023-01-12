@@ -1,0 +1,43 @@
+.main__heroo{
+    background: url('../../pages/images/svg/careersHero-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.jakarta__container {
+    padding-top: 12rem;
+}
+.manager {
+    display: flex;
+    justify-content: space-between;
+    background-color: $colors-snow;
+    padding-left: 4rem;
+    padding-top: 3.2rem;
+    padding-bottom: 3.5rem;
+    padding-right: 6.4rem;
+}
+.manager:hover{
+    background-color: $colors-hover-bg;
+}
+.manager:active{
+    opacity: 0.7;
+}
+.manager:not(:last-child){
+    margin-bottom: 2.4rem;
+}
+.indonesia{
+    margin-bottom: 8px;
+    color:$colors-dark-navy ;
+    font-size: $main-font-size-h4;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700; 
+}
+.ux{
+    font-family: 'Lexend Deca';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: $main-font-size-btn;
+    color: $colors-dark-navy;
+    line-height: $line-btn;
+}

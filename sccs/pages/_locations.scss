@@ -1,0 +1,28 @@
+.locations__feature{
+    margin-top: 12rem;
+}
+.locations__main-end {
+    display: flex;
+    align-items: center;
+    padding-top: 12rem;
+}
+.listed {
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+color: $colors-dark-navy;
+font-size: $main-font-size-h2;
+line-height: $line-h2;
+width: 350px;
+margin-right: 3rem;
+}
+.scoot {
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: $main-font-size-btn;
+line-height: $line-btn;
+width: 500px;
+padding-right: 10.5rem;
+color: $colors-dim-grey;
+}

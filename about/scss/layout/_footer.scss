@@ -1,0 +1,52 @@
+.footer{
+    background-color: $colors-footer-bg;
+    // height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer__container {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__info {
+    display: flex;
+    align-items: center;
+}
+.footer__site-logo {
+    margin-right: 5.858rem;
+
+}
+.footer__sitenav-list {
+    display: flex;
+    align-items: center;
+}
+.footer-list:not(:last-child) {
+    padding-right: 3.2rem;
+}
+.footer_link {
+    color: $colors-dim-grey;
+}
+.footer__logo:not(:last-child) {
+    margin-right: 2.4rem;
+
+}
+.logo{
+    padding-right: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

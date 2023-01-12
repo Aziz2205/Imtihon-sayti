@@ -1,0 +1,42 @@
+.header{
+    padding-bottom: 2.1rem;
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+
+}
+.header__navbar {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    margin-right: 5.818rem;
+}
+.nav__info{
+    display: flex;
+    align-items: center;
+}
+.nav__sitenav-list {
+    display: flex;
+    align-items: center;
+
+}
+.nav_link {
+    color: $colors-dim-grey;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+}
+.nav-list:not(:last-child) {
+    margin-right: 3.2rem;
+}
+.header__btn{
+    margin-top: 2.2rem;
+}
+
+
+.nav_link:hover{
+    color: $colors-yellow;
+}

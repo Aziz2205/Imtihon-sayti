@@ -1,0 +1,261 @@
+.hero{
+    background-image: url('../../images/jpg/Bitmap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero::before{
+    content: " ";
+    background: url('../../images/svg/hero__bg_left.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 353px;
+    left: 0;
+    width: 202px;
+    height: 200px;
+}
+.hero::after{
+    content: " ";
+    background: url('../../images/svg/hero__bg_center.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 355px;
+    right: 288px;
+    width: 450px;
+    height: 100%;
+    left: 780px;
+
+}
+.hero__info {
+    padding-top: 15.3rem;
+    padding-bottom: 152px;
+}
+.hero__title {
+    color: $colors-wight;
+    font-size: $main-font-size-h1;
+    letter-spacing: -2.5px;
+    line-height: $line-h1;
+    width: 500px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+.hero__par {
+    color: $colors-wight;
+    width: 405px;
+    padding-top: 40px;
+    margin-left: 95px;
+    font-size: $main-font-size-btn;
+    line-height: $line-btn;
+    margin-bottom: 4rem;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+}
+.hero__btn {
+    margin-left: 95px;
+}
+
+
+
+
+
+
+.feature {
+    padding-top: 160px;
+    background: url('../../images/svg/feature-----.svg');
+    background-repeat: no-repeat;
+    background-position: left 0 center ;
+}
+.feature__container {
+    display: flex;
+    align-items: center;
+}
+// .feature__img{
+    
+    // }
+    // .feature_info {
+        // }
+        .feature__title {
+            padding-top: 4rem;
+            font-size: $main-font-size-h4;
+            line-height: $line-h4;
+            color: $colors-dark-navy;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+        }
+        .feature__par {
+            color: $colors-dim-grey;
+            line-height: $line-btn;
+            font-size: $main-font-size-btn;
+            width: 350px;
+            padding-top: 2.7rem;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            padding-right: 3rem;
+        }
+        .feature__par:not(:last-child){
+            color: aqua;
+        }
+        .nav-list:not(:last-child) {
+            margin-right: 3.2rem;
+        }
+        
+        
+
+
+        .main__end {
+            display: flex;
+            align-items: center;
+            padding-top: 20rem;
+            position: relative;
+        }
+        .easy::after{
+            content: "";
+            background: url('../../images/svg/easy_bg.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 740px;
+            height: 200px;
+            right: -10rem;
+            bottom: -5rem;
+
+        }
+        .easy::before{
+            content: " ";
+            background: url('../../images/svg/circle-right.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 101px;
+            height: 445px;
+            right: -16.9rem;
+        }
+        .coming::before{
+            content: " ";
+            background: url('../../images/svg/easy_bg_right.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 740px;
+            height: 200px;
+            left: -52rem;
+            bottom: 24rem;
+
+            
+        }
+        .coming::after{
+            content: " ";
+            background: url('../../images/svg/circle-left.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 101px;
+            height: 445px;
+            left: -16.9rem;
+        }
+        .zero::after{
+            content: "";
+            background: url('../../images/svg/easy_bg.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 500px;
+            height: 200px;
+            right: -14rem;
+        }
+        .zero::before{
+            content: " ";
+            background: url('../../images/svg/circle-right.svg');
+            position: absolute;
+            background-repeat: no-repeat;
+            width: 101px;
+            height: 445px;
+            right: -16.9rem;
+        }
+        .main__end-info {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    width: 445px;
+    color: $colors-dark-navy;
+    font-size: $main-font-size-h2;
+    line-height: $line-h2;
+    letter-spacing: -2.14286px;
+    margin-right: 20rem;
+}
+.main__end-par {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    width: 445px;
+    font-size: $main-font-size-btn;
+    line-height: $line-btn;
+    padding-top: 2.4rem;
+    padding-bottom: 5.4rem;
+    color: $colors-dim-grey;
+}
+.main__end-img {
+    border-radius: 50%;
+}
+
+.main__end-img {
+    margin-right: 20rem;
+}
+.main__end-info-left {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    width: 445px;
+    color: $colors-dark-navy;
+    font-size: $main-font-size-h2;
+    line-height: $line-h2;
+    letter-spacing: -2.14286px;
+}
+.main__end-par-left {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    width: 445px;
+    font-size: $main-font-size-btn;
+    line-height: $line-btn;
+    padding-top: 2.4rem;
+    padding-bottom: 5.4rem;
+    color: $colors-dim-grey;
+}
+
+
+.footer__one {
+    background-color: $colors-dark-navy;
+    background-image: url('../../images/svg/Group\ 22.svg');
+    background-repeat: no-repeat;
+    background-position: right -173px bottom -173px;
+}
+
+.footer__start{
+    margin-top: 32.9rem;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.today{
+    font-size: $main-font-size-h2;
+    line-height: $line-h2;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    width: 455px;
+    color: $colors-wight;
+    margin-top: 10.2rem;
+    margin-bottom: 10.2rem;
+}
+.play{
+    display: flex;
+    align-items: center;
+}
+.app__play {
+    margin-right: 1.8rem;
+    cursor: pointer;
+}
+.google__play {
+    cursor: pointer;
+}

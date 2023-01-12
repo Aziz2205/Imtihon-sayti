@@ -1,0 +1,17 @@
+.site-btn{
+    background-color: $colors-yellow;
+    color: $colors-wight;
+    padding: 1.4rem 3.9rem;
+    font-size: $main-font-size-btn;
+    line-height:$line-btn;
+    border: 3px solid $colors-yellow;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.site-btn:hover{
+    background-color: transparent;
+    color: $colors-yellow;
+    border: 3px solid $colors-yellow;
+}
